@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Series</string>
+    <string name="action_settings">Settings</string>
+    <string name="registro">REGISTRO</string>
+    <string name="cedula">Cédula</string>
+    <string name="anos">Año Extreno</string>
+    <string name="noms">Nombre Serie</string>
+    <string name="descs">Descripción Serie</string>
+    <string name="pros">Protagonista Serie</string>
+    <string name="nombre">Nombre</string>
+    <string name="apellido">Apellido</string>
+    <string name="guardar">Guardar</string>
+    <string name="borrar">Borrar</string>
+    <string name="mensaje_error_anio">Digite el año</string>
+    <string name="mensaje_error_nombre">Digite el nombre</string>
+    <string name="mensaje_error_descripcion">Digite la descripcion</string>
+    <string name="mensaje_error_protagonista">Digite protagonista</string>
+    <string name="mensaje_exitoso_guardar">Serie Guardada Exitosamente</string>
+</resources>
