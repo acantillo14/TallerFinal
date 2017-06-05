@@ -133,6 +133,15 @@ public class RegistrarSerie extends AppCompatActivity {
 
         guardado = false;
     }
+
+    public void limpiar(View v){
+        cajaano.setText("");
+        cajaNombre.setText("");
+        cajaDescripcion.setText("");
+        cajaProtagonista.setText("");
+        cajaano.requestFocus();
+
+    }
     public boolean validarTodo(){
         if(cajaano.getText().toString().isEmpty()){
             icajaano.setError(getResources().getString(R.string.mensaje_error_anio));

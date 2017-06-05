@@ -94,12 +94,13 @@
                 android:text="@string/guardar" />
 
             <Button
-                android:text="@string/borrar"
+                android:id="@+id/button"
+                style="@style/Widget.AppCompat.Button.ButtonBar.AlertDialog"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:id="@+id/button"
                 android:layout_weight="1"
-                style="@style/Widget.AppCompat.Button.ButtonBar.AlertDialog" />
+                android:onClick="limpiar"
+                android:text="@string/borrar" />
         </LinearLayout>
 
     </LinearLayout>
