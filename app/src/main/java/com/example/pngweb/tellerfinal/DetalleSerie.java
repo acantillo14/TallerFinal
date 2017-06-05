@@ -15,7 +15,7 @@ public class DetalleSerie extends AppCompatActivity {
     private Series s;
     private String anio,nombre,descripción,protagonista,urlfoto;
     private Bundle b;
-    private TextView desc ;
+    private TextView desc,aniio,nom,pro ;
     private Intent i;
     private ImageView foto;
     @Override
@@ -40,7 +40,7 @@ public class DetalleSerie extends AppCompatActivity {
 
         Picasso.with(getApplicationContext()).load(urlfoto).into(foto);
         collapsingToolbarLayout.setTitle(nombre+" ");
-        desc.setText(descripción);
+        desc.setText("Descripción de la Serie: "+descripción+"\n"+"Nombre de la Serie: "+nombre+"\n"+"Protagonista de la Serie: "+protagonista+"\n"+"Año de Estreno de la Serie: "+anio);
 
     }
 }

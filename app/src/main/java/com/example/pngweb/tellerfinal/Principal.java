@@ -59,7 +59,7 @@ public class Principal extends AppCompatActivity implements AdaptadorSeries.OnSe
         b.putString("anio",s.getAnio());
         b.putString("nombre",s.getNombre());
         b.putString("descripcion",s.getDescripcion());
-        b.putString("apellido",s.getProtagonista());
+        b.putString("protagonista",s.getProtagonista());
         b.putString("urlfoto",s.getUrlfoto());
 
         i.putExtra("datos",b);
