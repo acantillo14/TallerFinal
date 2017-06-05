@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Tv Shows</string>
+    <string name="mensaje_error_anio">Type the year</string>
+    <string name="mensaje_error_descripcion">Type the description</string>
+    <string name="mensaje_error_nombre">Type the name</string>
+    <string name="mensaje_error_protagonista">Type protagonist</string>
+    <string name="guardar">Save</string>
+    <string name="borrar">Clean</string>
+    <string name="nombre">Name</string>
+    <string name="mensaje_exitoso_guardar">Tv Show Save</string>
+    <string name="noms">Name of the Tv Show</string>
+    <string name="pros">Protagonist of the Tv Show</string>
+    <string name="registro">Registry</string>
+    <string name="descs">Description of the Tv Show</string>
+    <string name="anos">Premiere</string>
+    <string name="action_settings">Settings</string>
+</resources>
